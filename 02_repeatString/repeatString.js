@@ -1,11 +1,14 @@
+const hey = [];
+
 const repeatString = function('hey', num) {
    for (let i = 0; i <= num; i++) {
        if (i <= num) {
-           return "hey";
+           hey.push("hey");
        }
+            hey.toString();
    }
-};
-repeatString('hey', 5)
+}
+repeatString()
 
 
 // Do not edit below this line

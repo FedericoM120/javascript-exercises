@@ -1,10 +1,10 @@
 const repeatString = function(string, num) {
     const hey = [];
-    for (let i = 0; i <= num; i++) {
-        hey.push("hey");
+    for (let i = 0; i < num; i++) {
+        hey.push(string);
     }
     return hey.toString();
 }
-// hey.toString();
+
 // Do not edit below this line
 module.exports = repeatString;

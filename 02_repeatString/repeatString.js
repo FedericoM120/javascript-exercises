@@ -1,6 +1,7 @@
-const hey = [];
 
-const repeatString = function('hey', num) {
+
+const repeatString = function(string, num) {
+    const hey = [];
    for (let i = 0; i <= num; i++) {
        if (i <= num) {
            hey.push("hey");
@@ -8,8 +9,6 @@ const repeatString = function('hey', num) {
             hey.toString();
    }
 }
-return repeatString('hey', 5);
-
-
+will this register?
 // Do not edit below this line
 module.exports = repeatString;

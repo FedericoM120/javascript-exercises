@@ -9,6 +9,19 @@ const repeatString = function(string, num) {
             hey.toString();
    }
 }
-will this register?
+
+const repeatString2 = function() {
+    
+}
+
+
+
+
+
+
+
+
+
+
 // Do not edit below this line
 module.exports = repeatString;

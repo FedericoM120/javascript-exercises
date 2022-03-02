@@ -4,8 +4,8 @@ const reverseString = function(sentence) {
     //create for loop counting backwards
     for (let i = string.length; i > 0; i--) {
         let backwards = "";
-        //concat the indexes together from the loop which decreases from greatest to least
-        
+    //concat the indexes together from the loop which decreases from greatest to least
+     //string   
     }
     
 

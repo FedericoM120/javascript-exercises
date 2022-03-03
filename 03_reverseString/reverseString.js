@@ -1,14 +1,9 @@
 const reverseString = function(sentence) {
-    let string = sentence;
-    let length = string.length;
-    //create for loop counting backwards
-    for (let i = string.length; i > 0; i--) {
-        let backwards = "";
-    //concat the indexes together from the loop which decreases from greatest to least
-     //string   
+    let backwards = "";
+    for (let i = sentence.length - 1; i >= 0; i--) {
+    backwards += sentence.charAt(i);
     }
-    
-
+    return backwards;
 };
 
 // Do not edit below this line

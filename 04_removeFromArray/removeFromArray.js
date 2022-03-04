@@ -1,8 +1,11 @@
-const removeFromArray = function(array, arguement) {
-    //create original array which takes input from user
-    //remove the argument input from user from original array
-    // create new array with new aruement
-    // return new array
+const removeFromArray = function(array, arguements) {
+    //if arguement does not exist, return array
+    //else if arguement exists in array then array.splice.arguments[]
+    //return edited array
+    
+
+
+
 
 };
 

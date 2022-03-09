@@ -4,15 +4,15 @@ const removeFromArray = function(list, owned) {
     //if the item is owned then skip it and do not add it to the empty array
     //if the item is not owned the add it to the empty array
     //return the empty array
-
-    for (let i = 0; i > list.length -1; i++) {
-        const itemNeeded = [];
-        if (owned = i) {
+    let itemNeeded = [];
+    for (let i = 0; i < list.length; i++) {
+        if (owned == list[i]) {
             continue;
         } else {
-            itemNeeded += i;
+            itemNeeded.push(list[i]);
         }
-        return itemNeeded;
+    };
+    return itemNeeded;
 };
 
 // Do not edit below this line

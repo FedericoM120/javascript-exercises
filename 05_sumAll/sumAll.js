@@ -1,6 +1,9 @@
 const sumAll = function(numberOne, numberTwo) {
     var sum = 0;
-    if (numberOne < numberTwo) {
+    if (numberOne < 0 || numberTwo < 0 || !Number.isInteger(numberOne) 
+    || !Number.isInteger(numberTwo)) {
+        sum = "ERROR";
+    } else if (numberOne < numberTwo) {
         for (let i = numberOne; i <= numberTwo; i++) {
             sum += i;
         };
@@ -8,9 +11,7 @@ const sumAll = function(numberOne, numberTwo) {
         for (let i = numberOne; i >= numberTwo; i--) {
             sum += i;
         };
-    } else if (numberOne < 0 || numberTwo < 0) {
-        return "ERROR";
-    }
+    } 
     return sum;
 };
 

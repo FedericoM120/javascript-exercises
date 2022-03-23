@@ -14,6 +14,5 @@ const sumAll = function(numberOne, numberTwo) {
     } 
     return sum;
 };
-
 // Do not edit below this line
 module.exports = sumAll;
